@@ -1,0 +1,66 @@
+.toplevel_page_fsd-page-status-tracker #wpcontent {
+  background: #fff;
+  height: 1000px;
+}
+
+button .components-spinner {
+  width: 15px;
+  height: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+#fsd-page-status-tracker {
+  max-width: 800px;
+}
+
+#fsd-page-status-tracker ul,
+#fsd-page-status-tracker ul li {
+  list-style-type: disc;
+}
+
+#fsd-page-status-tracker .components-search-control__input {
+  height: 36px;
+  margin-left: 0;
+}
+
+#fsd-page-status-tracker .list-controls {
+  display: flex;
+  width: 100%;
+}
+
+#fsd-page-status-tracker .list-controls .components-search-control {
+  flex-grow: 1;
+}
+
+#fsd-page-status-tracker table td {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+#fsd-page-status-tracker .components-base-control__field {
+  margin: 0;
+}
+
+#fsd-page-status-tracker .status-code-0 {
+  background-color: #fff;
+}
+#fsd-page-status-tracker .status-code-1 {
+  background-color: #FCF4CC;
+}
+#fsd-page-status-tracker .status-code-2 {
+  background-color: #CCE2E3;
+}
+#fsd-page-status-tracker .status-code-3 {
+  background-color: #DAE9DA;
+}
+
+#fsd-page-status-tracker .filter-bar {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
